@@ -46,6 +46,27 @@ The system uses **FastAPI**, **HTML/CSS/JavaScript SPA frontend**, and **IBM Wat
 
 ---
 
+## 📁 Folder Structure
+
+```bash
+HealthAI/
+├── static/                      # All frontend assets
+│   ├── css/
+│   │   └── style.css            # UI styles for entire SPA
+│   ├── img/
+│   │   └── bg.jpg               # Background image
+│   └── js/
+│       └── app.js              # JavaScript for routing and API calls
+│
+├── templates/
+│   └── index.html              # Main frontend layout rendered by FastAPI
+│
+├── main.py                     # FastAPI backend logic + routes
+├── .env                        # IBM Watson API keys and config (keep secret)
+├── venv/                       # Python virtual environment
+└── __pycache__/                # Python bytecode cache (auto-generated)
+
+
 ## ⚙️ Setup Instructions
 
 ### ✅ Prerequisites
@@ -94,7 +115,7 @@ Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## 👥 Contributors
 
-- **Nikku Chandana Sai Durga** (Team Leader)  
+- **Nikku Chandana Sai Durga** 
 - **Mudili Lakshmi Srimannarayana Charan Teja**  
 - **Muppalla Sindhu**  
 - **Motukuri Shrivalli**
